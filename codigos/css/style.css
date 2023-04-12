@@ -1,0 +1,181 @@
+*{
+  padding: 0;
+  margin: 0;
+/*box-sizing: border-box;*/
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
+}
+
+.h1 {
+  color: black;
+}
+
+.top-bar {
+  height: 100px;
+  width: 100%;
+  background-color:  #4376ea;
+  color: white;
+  text-align: center;
+  border-bottom: 5px solid #3267d7;
+  font-size: 25px;
+  padding:8px;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 2%;
+  position: sticky;
+  top: 0%;
+
+}
+
+#menu-h {
+  text-align: left;
+}
+
+#menu-h ul {
+  max-width: 800px;
+  list-style: none;
+  padding: 0;
+}
+
+#menu-h ul li {
+  display: inline-block;
+  font-size: medium;
+}
+
+#menu-h ul li a {
+  color: #FFF;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .3s;
+}
+
+#menu-h ul li a:hover {
+  background-color: rgb(24, 139, 233);
+}
+
+.name {
+  text-align: center;
+  font-size: larger;
+  margin-left: 30%;
+  margin-top: 0.8%;
+}
+
+.container {
+  max-width: 888px;
+  margin: auto;
+  padding: 30px;
+}
+
+.headerline {
+  text-align: center;
+  color: black;
+  font-size: 55px;
+  line-height: 64px;
+  margin-bottom: 6%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+.card:hover{
+  transition: all 0.3s ease-out;
+  box-shadow: 7px 7px 13px 0px rgb(24, 139, 233);
+
+}
+
+.btn-card{
+  border: 2px solid rgb(24, 139, 233);
+  background-color: white;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 2.5%;
+  
+}
+
+.btn-card:hover {
+  background-color: rgb(24, 139, 233);
+  border:2px solid white;
+  color: white;
+  transition: 0.5s;
+}
+
+
+.image {
+  float: right;
+  max-width: 400px;
+  max-height: 400px;
+  margin-bottom: 3.5%;
+}
+
+.title {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.description {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+#hr{
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.rodape {
+  background-color: #4376ea;
+  color: white;
+  padding: 15px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.rodape-texto {
+  max-width: 500px;
+  margin: auto;
+  font-size: 24px;
+}
+
+.title-2{
+  
+  margin-bottom: 10px;
+}
+
+.social-media{
+  position: absolute;
+  right: 0;
+  margin-right: 7%;
+  width: 150px;
+}
+
+#img2{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+
+
+
+
+
+
